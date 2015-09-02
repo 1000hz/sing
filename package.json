@@ -1,0 +1,28 @@
+{
+  "name": "sing",
+  "version": "1.0.0",
+  "description": "\"I HAVE THE MUSIC INSIDE ME!!\" --ur comp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1000hz/sing"
+  },
+  "keywords": [
+    "sing",
+    "say",
+    "text-to-speech"
+  ],
+  "author": "Cina Saffary <itscina@gmail.com> (https://github.com/1000hz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1000hz/sing/issues"
+  },
+  "homepage": "https://github.com/1000hz/sing",
+  "dependencies": {
+    "midifile": "^1.0.1",
+    "word-phoneme-map": "^1.4.0"
+  }
+}
