@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "\"I HAVE THE MUSIC INSIDE ME!!\" --ur comp",
   "main": "index.js",
+  "bin": {
+    "sing": "./bin/sing",
+    "phonemes": "./bin/phonemes"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +27,10 @@
   "homepage": "https://github.com/1000hz/sing",
   "dependencies": {
     "midifile": "^1.0.1",
-    "word-phoneme-map": "^1.4.0"
+    "word-phoneme-map": "^1.4.0",
+    "yargs": "^3.27.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
   }
 }
